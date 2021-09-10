@@ -4,23 +4,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="import" href="https://fonts.google.com/specimen/Red+Hat+Display">
   <title>Frontend Mentor | Order summary card</title>
 </head>
 
 <body>
-
-  <section>
-    <figure>
-      <img src="./images/illustration-hero.svg" alt="illustration-hero">
-    </figure>
-  </section>
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <main class="container">
+    <section class="card">
+      <img class="img-illustration" src="assets/images/illustration-hero.svg" alt="illustration-hero">
+      <div class="box-text">
+        <h1 class="card-title">Order Summary</h1>
+        <p class="card-paragraph">You can now listen to millions of songs, audiobooks, and podcast on any device
+          anywhere you like!</p>
+      </div>
+      <div class="box-plan">
+        <div class="box-value">
+          <img src="assets/images/icon-music.svg" alt="">
+          <p>Annual Plan</p>
+          <p>$59.99/year</p>
+          <button class="btn-change">Change</button>
+        </div>
+      </div>
+      <div class="box-btn">
+        <button class="btn-proceed">Proceed to Payment</button>
+        <button class="btn-cancel">Cancel Order</button>
+      </div>
+    </section>
+    <footer>
+      <p>Challenge by <a href="https://www.frontendmentor.io/challenges" target="_blank">FrontEnd Mentor</a>, solution
+        made by <a href="https://github.com/luanpires94" target="_blank">Luan Pires.</a></p>
+    </footer>
+  </main>
 </body>
 
 </html>
